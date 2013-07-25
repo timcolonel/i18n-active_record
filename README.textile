@@ -1,3 +1,14 @@
+h1. Notes from updaters:
+
+We changed some code to make it work with rails 4, however in doing this we changed some attribute settings:
+
+to modify them to your needs you should change: "/lib/i18n/backend/active_record/translation.rb"  
+function permitted_params, and protect those you want protected.
+
+Thanks, and happy coding.
+
+(What follows is the readme from the Sven Fuchs repo)
+
 h1. I18n::Backend::ActiveRecord
 
 This repository contains the I18n ActiveRecord backend and support code that has been extracted from the "I18n":http://github.com/svenfuchs/i18n.
