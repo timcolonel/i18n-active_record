@@ -1,4 +1,4 @@
-h1. Notes from updaters:
+h1. Notes from updaters: Rails 4 Compatiblity
 
 We changed some code to make it work with rails 4, however in doing this we changed some attribute settings:
 
