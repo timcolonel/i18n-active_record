@@ -31,7 +31,7 @@ module I18n
 
         def lookup(locale, key, scope = [], options = {})
           key = normalize_flat_keys(locale, key, scope, options[:separator])
-          result = Translation.locale(locale).lookup(key).to_a
+          result = Translation.locale(locale).lookup(key)
 
           if result.empty?
             nil
